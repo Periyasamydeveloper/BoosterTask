@@ -1,0 +1,7 @@
+body{
+    background-color:bisque;
+}
+.buttonInline{
+    display: flex;
+    justify-content:space-around;
+}
