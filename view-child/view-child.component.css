@@ -1,0 +1,15 @@
+body{
+    background-color:bisque;
+}
+table {
+    background-color: azure;
+    width: 50%;
+  }
+.popupData{
+    border: 1px solid black;
+    color: rgb(70, 96, 67);
+}
+.popupDiv{
+    margin-left: 28px;
+    width:40%;
+}
