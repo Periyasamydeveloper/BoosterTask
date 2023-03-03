@@ -15,6 +15,7 @@ export class AppComponent {
   parent:any="Parent";
   dataSource:any[]=[];
   promiseComponent:boolean=false;
+  inputValue:any;
 constructor(private matDialog:MatDialog,private behaviourService:TasksServices){}
 
   showChildComponent(){

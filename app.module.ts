@@ -12,6 +12,7 @@ import { MaterialExampleModule } from './material.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { Filter } from './customfilter/filter.pipe';
+import { BehaviourSubjecctComponent } from './behaviour-subjecct/behaviour-subjecct.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { Filter } from './customfilter/filter.pipe';
     PipeComponent,
     ViewChildComponent,
     PromiseComponent,
-    Filter
+    Filter,
+    BehaviourSubjecctComponent
   ],
   imports: [
     BrowserModule,
