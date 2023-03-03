@@ -21,7 +21,6 @@ export class ViewChildComponent {
   selectedValue:any;
   total: any;
   isNoData: boolean = true;
-  viewValue: boolean = true;
 constructor(private tasksService:TasksServices,public matDialogRef:MatDialogRef<ViewChildComponent>,@Inject(MAT_DIALOG_DATA) public data:DialogData,){}
 
 ngOnInit() {

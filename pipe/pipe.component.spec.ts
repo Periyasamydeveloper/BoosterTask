@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PipeComponent } from './observableANDpipe.component';
+import { PipeComponent } from './pipe.component';
 
 describe('PipeComponent', () => {
   let component: PipeComponent;

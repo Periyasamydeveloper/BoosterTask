@@ -1,7 +1,14 @@
 
-
 <mat-form-field class="example-full-width">
     <input matInput  [value]="behaviourMessage">
 </mat-form-field>
 <br>
+<mat-form-field appearance="fill" >
+    <mat-label>Promise</mat-label>
+<mat-select>
+<mat-option *ngFor="let res of resource">{{res.name}}</mat-option>
+</mat-select>
+</mat-form-field>
 <app-pipe></app-pipe>
+<button mat-raised-button color="accent" (click)="viewChildMethod()">View Child </button>
+

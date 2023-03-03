@@ -1,8 +1,10 @@
+<div>
 <mat-form-field appearance="fill">
     <mat-label>Pipe</mat-label>
     <input matInput [(ngModel)]="search">
 </mat-form-field> <br>
 Names:- <div *ngFor="let lists of list | filter : search">{{ lists|uppercase}}</div>
 <h2>{{observableCount}}</h2>
-
-<app-pipe *ngIf = "viewChildComponent"></app-pipe>
+<h2  *ngIf="viewValue">View Child Not Called</h2>
+<h2  *ngIf="!viewValue">View Child Called</h2>
+</div>

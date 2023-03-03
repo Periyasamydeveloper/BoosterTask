@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ChildComponentComponent } from './child-component/child-component.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { PipeComponent } from './pipe/observableANDpipe.component';
+import { PipeComponent } from './pipe/pipe.component';
 import { ViewChildComponent } from './view-child/view-child.component';
 import { PromiseComponent } from './promise/promise.component';
 import { MaterialExampleModule } from './material.component';
